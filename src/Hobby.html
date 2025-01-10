@@ -1,79 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+    <script src="/javascript/javafile.js" defer></script>
 </head>
-
-<body>
-    <header>
+<body class="large">
+    <header class="head">
         <nav>
-            <p>MyPortfolio</p>
-            <button onclick="toggleMenu()">&equiv;</button>
-            <ul id="menu">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Hobby.html">Hobby</a></li>
-                <li><a href="Project.html">Project</a></li>
+            <p class="log">MyPortfolio</p>
+            <button onclick="toggleMenu()" class="togglemenu">&equiv;</button>
+            <ul class="menu">
+                <li class="li1"><a href="Home.html">Home</a></li>
+                <li class="li2"><a href="About.html">About</a></li>
+                <li class="active"><a href="Hobby.html">Hobby</a></li>
+                <li class="li4"><a href="Project.html">Project</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div class="navhob">
+            <p><a href="Adventure.html"> Adventure</a></p>
+        </div>
     </header>
+    <!-- <div class="navhob2"> <p><a href="Adventure.html"> Adventure</a></p></div> -->
     <main>
+        <p class="navhob2"><a href="Adventure.html"> Adventure</a></p>
+        <!-- <a href="Adventure.html"class="adv"> Adventure</a> -->
         <section class="container3">
-            <h2>my hobby</h2>
-            <div>
-                
-                <p>Coding is not just my profession;
-                    it's my major hobby and where my passion truly shines.
-                    My enthusiasm for coding ensures that I stay updated with the
-                    latest advancements and best practices, which I apply to your projects.
-                </p>
-                <p>Why My Hobbies Make Me the Perfect Web Developer for You?</p>
-                <ul>
-                    <li>Innovative Solutions:My dedication to continuously learning and exploring new technologies
-                        ensures that I bring fresh,
-                        innovative solutions to your projects</li>
-                    <li> Attention to Detail: I find immense joy in crafting solutions and building projects from the
-                        ground up.
-                        This love for the process means I am thorough and meticulous, paying attention to every detail
-                        to deliver a polished final product.</li>
-                    <li>Client-Focused Approach: your needs and goals are always my top priority</li>
-                </ul>
-            
+            <h2 style="display: none;">my hobby</h2>
+            <div class="container2">
+                <div class="boh">
+                    <p>Coding is not just my profession;
+                        it's my major hobby and where my passion truly shines.
+                        My enthusiasm for coding ensures that I stay updated with the
+                        latest advancements and best practices, which I apply to your projects.
+                    </p>
+                    <p>Why My Hobbies Make Me the Perfect Web Developer for You?</p>
+                    <ul style=" text-align: left;">
+                        <li>Innovative Solutions:My dedication to continuously learning and exploring new technologies ensures that I bring fresh,
+                            innovative solutions to your projects
+                        </li>
+                        <li> Attention to Detail: I find immense joy in crafting solutions and building projects from the
+                            ground up. This love for the process means I am thorough and meticulous, paying attention to every detail
+                            to deliver a polished final product.
+                        </li>
+                        <li>Client-Focused Approach: your needs and goals are always my top priority</li>
+                    </ul>
+    
+                </div>
+                <section class="testimony">
+                    <h3> Testimony</h3>
+                    <p> Below, you'll find audio testimonials from my clients,
+                        sharing their experiences in their own words.
+                    </p>
+                    <audio controls>
+                        <source src="audio/audio1.mp3" type="audio/mpeg">
+    
+                    </audio>
+                </section>
             </div>
-            <section>
-                <h3> testimony</h3>
-                <p> Below, you'll find audio testimonials from my clients,
-                    sharing their experiences in their own words.
-                </p>
-                <audio controls>
-                    <source src="audio/audio1.mp3" type="audio/mpeg">
-                    
-                </audio>
-            </section>
-            <aside>
-                <img src="image/hobby.jpg" alt="" >
+            <aside class="image">
+                <img src="image/hobby.jpg" alt="">
             </aside>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer class="foot">
+        <div class="fot1">
             <a href="https://www.facebook.com/profile.php?id=100071864332049&mibextid=ZbWKwL">
                 <i class='bx bxl-facebook'></i>
             </a>
             <a href="https://www.instagram.com/mart_ea21/profilecard/?igsh=cjY2aGJzNms4cGl0">
-                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-instagram'></i>
             </a>
-            <p>&copy; 2024 Martha Birhanu. All rights reserved.</p>
         </div>
-        <section>
+        <section class="fot">
             <h3> Contact info </h3>
-            <p> Email: marthabirhanu377@gmail.com</p>
-            <p> Phone number:+251 98 780 7458</p>
-
+            <div class="contact-info">
+                <p class="p1"> Email: marthabirhanu377@gmail.com</p>
+                <p> Phone number:+251 98 780 7458</p>
+            </div>
         </section>
     </footer>
 </body>

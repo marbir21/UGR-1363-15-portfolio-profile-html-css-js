@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./javascript/javafile.js" defer></script>
 </head>
-<body>
-    <header>
+<body class="large">
+    <header class="head">
         <nav>
-            <nav>
-                <p>MyPortfolio</p>
-                <button onclick="toggleMenu()">&equiv;</button>
-                <ul id="menu">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="Hobby.html">Hobby</a></li>
-                    <li><a href="Project.html">Project</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </nav>>
+            <p class="log">MyPortfolio</p>
+            <button onclick="toggleMenu()" class="togglemenu">&equiv;</button>
+            <ul class="menu">
+                <li class="li1"><a href="Home.html">Home</a></li>
+                <li class="li2"><a href="About.html">About</a></li>
+                <li class="li3"><a href="Hobby.html">Hobby</a></li>
+                <li class="li4"><a href="Project.html">Project</a></li>
+                <li class="active"><a href="Contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section class="container6">
-            <h2><b>CONTACT ME</b></h2>
-            <p>Get in touch with me.</p>
-            <div>
+            <div class="conta">
+                <h2><b>CONTACT ME</b></h2>
+                <p>Get in touch with me.</p>
                 <p>
                     Whether you have a question, feedback, or just want to say hi,
                     i am here to listen. Feel free to drop me a message using the form below,
@@ -34,7 +43,7 @@
                     and I look forward to connecting with you!
                 </p>
             </div>
-            <section>
+            <section class="forma">
                 <h3> contact form</h3>
                 <form action="submit-form.php" method="post">
                     <input type="text" name="name" required placeholder="Enter Your Name">
@@ -45,22 +54,21 @@
             </section>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer class="foot">
+        <div class="fot1">
             <a href="https://www.facebook.com/profile.php?id=100071864332049&mibextid=ZbWKwL">
                 <i class='bx bxl-facebook'></i>
             </a>
             <a href="https://www.instagram.com/mart_ea21/profilecard/?igsh=cjY2aGJzNms4cGl0">
                 <i class='bx bxl-instagram' ></i>
             </a>
-            <p>&copy; 2024 Martha Birhanu. All rights reserved.</p>
         </div>
-        <section>
-
+        <section class="fot">
             <h3> Contact info </h3>
-            <p> Email: marthabirhanu377@gmail.com</p>
-            <p> Phone number:+251 98 780 7458</p>
-
+            <div class="contact-info">
+                <p class="p1"> Email: marthabirhanu377@gmail.com</p>
+                <p> Phone number:+251 98 780 7458</p>
+            </div>
         </section>
     </footer>
 </body>
